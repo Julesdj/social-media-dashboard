@@ -1,0 +1,59 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+.icon-facebook {
+    width: 32px;
+    height: 32px;
+    fill: hsl(208, 92%, 53%);
+}
+.icon-twitter {
+    width: 32px;
+    height: 32px;
+    fill: hsl(203, 89%, 53%);
+}
+.icon-instagram {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+    fill: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+}
+.icon-youtube {
+    width: 32px;
+    height: 32px;
+    color: hsl(348, 97%, 39%);
+}
+
+.heading {
+    color: $color-accent;
+    font-size: 2.3em;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+.sub-heading {
+    margin-top: 0;
+    font-size: 1.3em;
+    margin-bottom: 1.5rem;
+}
+.featured-text {
+    color: $color-accent;
+    font-weight: bold;
+}
+// // SCSS Mixin
+@mixin justify-between {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@mixin justify-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
